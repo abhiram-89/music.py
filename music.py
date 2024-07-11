@@ -7,7 +7,6 @@ os.environ['AUDIODRIVER'] = 'dummy'
 # Initialize pygame
 pygame.init()
 # Create the main window
-window = tk.Tk()
 os.environ['DISPLAY'] = ':0'
 window.title("Music Player")
 # Initialize variables
