@@ -2,6 +2,8 @@ import tkinter as tk
 from tkinter import filedialog
 import pygame
 import os
+os.environ['SDL_AUDIODRIVER'] = 'dummy'
+os.environ['AUDIODRIVER'] = 'dummy'
 # Initialize pygame
 pygame.init()
 # Create the main window
